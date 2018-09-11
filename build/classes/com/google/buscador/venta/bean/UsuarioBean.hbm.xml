@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.google.buscador.venta.bean.UsuarioBean" table="usuario">
+		<id name="id" column="id">
+			<generator class="native"></generator>
+		</id>
+		<property name="nom" column="nom"/>
+		<property name="mail" column="mail"></property>
+		<property name="pass" column="pass"></property>
+	</class>
+</hibernate-mapping>

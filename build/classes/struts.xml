@@ -32,6 +32,9 @@
 		<action name="std" class="com.google.buscador.venta.action.AbcAction" method="add">
 			<result name="success">abc.jsp</result>
 		</action>
+		<action name="registraUsuario" class="com.google.buscador.venta.action.RegistraUsuarioAction" method="registraUsuario">
+			<result name="success">registro.jsp</result>
+		</action>
 
 	</package>
 
